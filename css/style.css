@@ -34,19 +34,19 @@ header nav{
     color:#fff;
 }
 
-#buttom-header{
+#bottom-header{
     font-size: 0.8rem;
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 }
 
-#buttom-header h3{
+#bottom-header h3{
     font-size:1.2rem;
 }
-#buttom-header a{
+#bottom-header a{
     color:#333;
 }
-#buttom-header-inner{
+#bottom-header-inner{
     max-width:1000px;
     margin:0 auto;
     display:flex;
@@ -54,11 +54,11 @@ header nav{
     align-items: center;
 }
 
-#buttom-header-inner a{
+#bottom-header-inner a{
     margin:0 0.5rem;
 }
 
-#buttom-header-inner .btn, .btn{
+#bottom-header-inner .btn, .btn{
     background-color: #0071e3;
     border-radius:10rem;
     padding:0.4rem 1rem;
@@ -172,4 +172,28 @@ header nav{
 
 .selected {
     outline:2px solid #43a1ff;
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+    #navbar li{
+        display: none;
+    }
+
+    #navbar #logo{
+        display:flex;
+    }
+
+    #bottom-header-links a{
+        display:none;
+    }
+    #bottom-header-links .btn{
+        display:flex;
+    }
+    #main-content {
+        padding:2rem;
+        overflow:hidden;
+    }
+     
 }

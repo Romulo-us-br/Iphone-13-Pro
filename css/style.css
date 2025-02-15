@@ -195,5 +195,9 @@ header nav{
         padding:2rem;
         overflow:hidden;
     }
+
+    #main-content #subtitle {
+        font-size:3rem;
+    }
      
 }
